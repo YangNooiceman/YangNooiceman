@@ -1,0 +1,52 @@
+body {
+	font-family: Georgia, serif;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+    background-color:aliceblue;
+}
+
+/*上面的代码先不管，当然你也可以自己玩玩看*/
+
+
+h1 {
+    font-family:'幼圆';
+    color:red;
+   font-size:60px;
+}
+
+h2 {
+   font-family:'微软雅黑';
+    color:deepskyblue;
+    font-size:40px;
+    }
+
+.hero {
+    background: url(images/w300.jpeg);
+    background-position: center top; 
+    background-size: cover; 
+	padding: 250px 0;                          /*padding内边距，意为子级元素之间的距离*/
+	margin: 30px;                              /*margin是外边距，意为父级元素与其他父级元素之间的距离*/
+	text-shadow: 2px 2px 8px #000000;          /*这是文字阴影*/
+    /*请学生设置一个主字体，并设置两个fallback(备用)字体*/
+}
+
+
+p { color:greenyellow;
+    font-size:20px;
+}
+
+.hero a {     
+    font-family:'微软雅黑';
+    color:palevioletred;
+    font-size:10px;                  /*这个选择器的意思是：选择名为hero的class名下的所有a标签*/
+    
+}
+
+#footer {                       /*带#号的选择器是选择ID*/
+    /*请学生设置文字颜色*/
+    /*请学生设置文字大小*/
+}
+
+
